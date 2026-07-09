@@ -1,0 +1,36 @@
+{
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theringsofsaturn/3D-art-gallery.git"
+  },
+  "author": "Emilian Kasemi <emiliankasemi@gmail.com>",
+  "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "ammo.js": "^0.0.10",
+    "ammojs-typed": "^1.0.6",
+    "cannon": "^0.6.2",
+    "lil-gui": "^0.18.2",
+    "three": "^0.151.3",
+    "three-stdlib": "^2.21.8"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "vite": "^4.3.1"
+  },
+  "name": "3d-gallery-starter-uas-main",
+  "version": "1.0.0",
+  "description": "Starter project galeri seni 3D pakai **Three.js + Vite**. Sudah jalan penuh: karakter bisa jalan-jalan (WASD), klik lukisan untuk zoom ke karya, patung di tengah ruangan, lantai/tembok/atap bertekstur.",
+  "main": "main.js",
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/theringsofsaturn/3D-art-gallery/issues"
+  },
+  "homepage": "https://github.com/theringsofsaturn/3D-art-gallery#readme"
+}
